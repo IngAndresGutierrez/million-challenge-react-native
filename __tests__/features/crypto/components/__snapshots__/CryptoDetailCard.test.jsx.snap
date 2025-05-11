@@ -1,0 +1,652 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CryptoDetailCard renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        {
+          "backgroundColor": "#fff",
+          "borderRadius": 12,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 3,
+        }
+      }
+      testID="card-container-outer-layer"
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#fff",
+            "borderRadius": 12,
+            "elevation": 1,
+            "flex": undefined,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 1,
+          }
+        }
+        testID="card-container"
+      >
+        <View
+          style={
+            [
+              {
+                "flexShrink": 1,
+              },
+              undefined,
+            ]
+          }
+          testID="card"
+        >
+          <View
+            borderRadiusStyles={
+              {
+                "borderRadius": 12,
+              }
+            }
+            style={
+              [
+                {
+                  "paddingHorizontal": 16,
+                },
+                {
+                  "paddingVertical": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 28,
+                      "fontWeight": "400",
+                      "letterSpacing": 0,
+                      "lineHeight": 36,
+                    },
+                    {
+                      "marginBottom": 8,
+                    },
+                  ],
+                ]
+              }
+            >
+              Bitcoin
+               (
+              BTC
+              )
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 22,
+                      "fontWeight": "400",
+                      "letterSpacing": 0,
+                      "lineHeight": 28,
+                    },
+                    [
+                      {
+                        "marginBottom": 16,
+                      },
+                      {
+                        "color": "rgba(103, 80, 164, 1)",
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              USD $
+              45000.00
+            </Text>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(202, 196, 208, 1)",
+                    "height": 0.5,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  {
+                    "marginVertical": 12,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.1,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              📈 Price & Ranking
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Rank: 
+              1
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Price (BTC): 
+              1.0
+            </Text>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(202, 196, 208, 1)",
+                    "height": 0.5,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  {
+                    "marginVertical": 12,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.1,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              💰 Market & Volume
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Market Cap: $
+              850.000.000.000
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Volume 24h: $
+              35.000.000.000
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Volume 24h (prev): $
+              30.000.000.000
+            </Text>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(202, 196, 208, 1)",
+                    "height": 0.5,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  {
+                    "marginVertical": 12,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.1,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              📊 Performance
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Change 1h: 
+              0.5
+              %
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Change 24h: 
+              2.5
+              %
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Change 7d: 
+              5.0
+              %
+            </Text>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(202, 196, 208, 1)",
+                    "height": 0.5,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  {
+                    "marginVertical": 12,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.1,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              🔗 Supply
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Circulating Supply: 
+              19,000,000
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Total Supply: 
+              21000000
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Max Supply: 
+              21000000
+            </Text>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(202, 196, 208, 1)",
+                    "height": 0.5,
+                  },
+                  undefined,
+                  false,
+                  false,
+                  {
+                    "marginVertical": 12,
+                  },
+                ]
+              }
+            />
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.1,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              🆔 Identifiers
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              ID: 
+              1
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                  },
+                  {
+                    "writingDirection": "ltr",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              NameID: 
+              bitcoin
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
